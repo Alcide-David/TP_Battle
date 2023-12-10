@@ -14,7 +14,8 @@ function estAnagrame(mot1, mot2) {
     for (let i = 0; i < tab1.length; i++) {
       if (tab1[i] !== tab2[i]) {
         return false;
-      }
+      }else{
+          retirn true;
     }
 }
 let rezilta = estAnagrame("David", "divaD");
